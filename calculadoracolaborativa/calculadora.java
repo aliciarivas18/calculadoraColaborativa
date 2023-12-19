@@ -27,7 +27,12 @@ public class calculadora {
                 
                 // CASO 2 resta será el código que desarrollará Carlos.
                 case 2:
-
+                    System.out.println("Introduce el primer número.");
+                    num1 = sc.nextInt();
+                    System.out.println("Introduce el segundo número.");
+                    num2 = sc.nextInt();
+                    resta = num1 - num2;
+                    System.out.println("La resta de " + num1 + " y " + num2 + " es: " + resta);
                 
                     break;
 
