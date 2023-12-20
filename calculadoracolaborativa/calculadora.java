@@ -19,12 +19,16 @@ public class calculadora {
             switch (opcion) {
              
 
-                // CASO 1 suma será el código que desarrollará Alicia.
+                // CASO 1 suma será el código que desarrollará Alicia. Desde la rama parteSuma
                 case 1:
+                System.out.println("Introduce el primer numero");
+                num1 = sc.nextInt();
+                System.out.println("Introduce el segundo numero");
+                num2 = sc.nextInt();
+                suma = num1 + num2;
+                System.out.println("Suma " + num1 + " - " + num2 + " es igual a : " + suma + "\n");
+                break;
 
-              
-
-                
                 // CASO 2 resta será el código que desarrollará Carlos.
                 case 2:
                     System.out.println("Introduce el primer número.");
